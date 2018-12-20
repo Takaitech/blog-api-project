@@ -1,0 +1,10 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: BvAPqZzhvo7pVohUjjoZ8A424a7Zt69lvIztqJv9Ffh5mi2ygM/ais8LB5AaIWJRZw7wOiX9k6jg5XH59Gp4kB81l9mSLPH8NyAoTEc9q5LJd19JNGHl+sEfFPw2Sh9AOX/lscG4eEURvOfq5wvHAl1b+TQrSHGVuGh1ay/wkLkusHQnZaE/Z1noLgEzsTbtPn2tT3PPV74OhwtyxvJgxCBttRFKFStiYG315DTJmth3TyA42lO4PPGdue9l+TqOdeZFKz03lRX8iCCTmtP7nUUxps/zN6qxrJMwmJTQAbA71D5PR4TgKBnoIawxmnfLYIsvojzjIwvcCUASGKAirwEwEAPhx2xrXIjx2MrfujuWzKC9NZ6xv/p8UkugtcVibOgmXc/vj54gQS9qCkYkao9kawhTiLuWEjZZCgY3EnL1tnNwx6+UJH/rBgiENYdrHz4GcUNGFwx/qXuKLV3c2RR0BVMkkN6pzl+mwYBWbex6cfKbnhVxTopXvBvyu68X8qjexZdoRJbVbMgRcTBrN+kTaXnP1CKbzLmza/Gq07LqtgRorqqrkegkhIflFVYu4vu9Pkh8xvRYxyyvRBzSRVX6jzfviSRw+uFacV+AYC+DF9JxDhYaq4iO1+VW/M8KN85j+26aZRTG/ivuAmryfECiMAbjGECevVPsUztyZBw=
+  app: vast-oasis-94823
+  on:
+    repo: Takaitech/blog-api-project
+    branch: blog-posts-test
